@@ -1,0 +1,289 @@
+.App{
+    display: grid;
+    /* border: 1px red solid; */
+    width: 60%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+/* MAIN BODY */
+main{
+    /* border: 1px white solid; */
+    background-color: black;
+    padding-bottom: 20px;
+    border-radius: 0 0 16px 16px;
+}
+/* WHOLE WEB BROWSER */
+html{
+    background-color: lightgray;
+}
+button{
+    outline: inherit;
+    border: none;
+}
+
+/* ADD NAME TO LIST========================================== */
+    header{
+        padding: 5px;
+        /* border: 1px blue solid; */
+        background-color: black;
+        border-radius: 16px 16px 0 0;
+    }
+    .AddUserForm{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        /* border: 1px white solid; */
+    }
+    .AddUserInput{
+        width: 90%;
+        height: 35px;
+        border: none;
+        text-transform: uppercase;
+        font-size: 1.3em;
+        background-color: rgba(90, 89, 89, 0.829);
+        color: white;
+    }
+    .AddUserButton{
+        background-color: darkgreen;
+        color: white;
+        width: 35px;
+        font-size: 1.5em;
+        /* border: none; */
+    }
+/* ========================================================== */
+
+/* USER LIST ================================================= */
+.OweUserList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    /* border: 1px red solid; */
+    margin: auto;
+}
+.OweUser{
+    color: black;
+    margin-bottom: 10px;
+    /* margin: auto; */
+}
+.OweUserButtons{
+    width: 100%;
+}
+
+.UserNameButton{
+    width: 60%;
+    height: 30px;
+    border: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+.RemoveUserButton{
+    height: 30px;
+    width: 10%;
+    border: none;
+    font-size: 1.2em;
+    background-color: crimson;
+}
+.ShowAddCharge{
+    height: 30px;
+    width: 10%;
+    border: none;
+    font-size: 1.2em;
+    background-color: darkgreen;
+}
+.viewAllPaid{
+    height: 30px;
+    width: 20%;
+    border: none;
+    font-size: 1.2em;
+    background-color: darkkhaki;
+}
+.viewAllOwe{
+    height: 30px;
+    width: 20%;
+    border: none;
+    font-size: 1.2em;
+    background-color: thistle;
+}
+/* TABLE----------------------------------------------------- */
+table{
+    margin-top: 5px;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+/* TABLE HEAD------------------------------------------------- */
+thead{
+    background-color: lightgrey;
+    font-size: 1.3em;
+}
+/* TABLE PAID------------------------------------------------- */
+.tPaid{
+    background-color: rgb(48, 63, 63);
+    border: none;
+    text-align: center;
+}
+/* TABLE OWE-------------------------------------------------- */
+.tOwe{
+    color: white;
+    background-color: rgba(90, 89, 89, 0.829);
+    /* background-color: lightslategrey; */
+    text-align: center;
+    font-size: 1.1em;
+    height: 35px;
+}
+.tOwe:hover{
+    background-color: white;
+    color: rgba(90, 89, 89, 0.829);
+    text-align: center;
+    font-size: 1.1em;
+    height: 35px;
+}
+.OweInput{
+   width: 100%;
+}
+/* TABLE TOTAL------------------------------------------------ */
+.TotalPaid, .TotalOwe{
+    height: 35px;
+    font-size: 1.0em;
+    font-weight: bolder;
+    background-color: blue;
+    color: white;
+}
+.markAsPaid{
+    height: 35px;
+    font-size: 1.0em;
+    font-weight: bolder;
+    width: 100%;
+    height: 35px;
+    background-color: green;
+    color: lightgreen;
+}
+.markAsPaid:hover{
+    color: green;
+    background-color: lightgreen;
+}
+/* TABLE BUTTON/INPUT------------------------------------------ */
+.editInput{
+    background-color: lavender;
+    width: 95%;
+    height: 32px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.mod-btn-edit, .mod-btn-save{
+    width: 20%;
+    height: 32px;
+    border-radius: 25px;
+    font-size: 0.9em;
+    font-weight: 900;
+    background-color: lightblue;
+    color: blue;
+}
+.mod-btn-edit:hover, .mod-btn-save:hover{
+    background-color: blue;
+    color: lightblue;
+}
+.mod-btn-remove{
+    width: 20%;
+    height: 32px;
+    border-radius: 25px;
+    margin: 5px 55px;
+    font-size: 0.9em;
+    font-weight: 900;
+    background-color: lightsalmon;
+    color: red;
+}
+.mod-btn-remove:hover{
+    background-color: red;
+    color: lightsalmon;
+}
+.mod-btn-paid{
+    width: 20%;
+    height: 32px;
+    border-radius: 25px;
+    font-size: 0.9em;
+    font-weight: 900;
+    background-color: lightgreen;
+    color: green;
+}
+.mod-btn-paid:hover{
+    background-color: darkgreen;
+    color: lightgreen;
+}
+/* =========================================================== */
+
+/* FORM =======================================================*/
+.AddChargeForm{
+    margin-top: 5px;
+    width: 100%;
+    height: 32px;
+}
+.ChargeName{
+    width: 40%;
+    height: 30px;
+    border: none;
+    font-size: 1.2em;
+    background-color: rgba(90, 89, 89, 0.829);
+    color: white;
+    text-transform: uppercase;
+}
+.ChargeAmount{
+    width: 30%;
+    height: 30px;
+    background-color: rgba(90, 89, 89, 0.829);
+    border: none;
+    font-size: 1.2em;
+    color: white;
+    text-transform: uppercase;
+}
+.TaxBool{
+    width: 10%;
+    height: 32px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+}
+.TaxBoolActive{
+    width: 10%;
+    height: 32px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+    background-color: blue;
+    color: cornsilk;
+}
+.SubmitForm{
+    width: 19.3%;
+    height: 32px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-size: 1.2em;
+}   
+/* =========================================================== */
+
+
+/* .OweOrPaid{
+    border: 1px blueviolet solid;
+} */
+
+/* .Paid{
+    border: 1px red solid;
+} */
+/* .Owe{
+    border: 1px black solid;
+} */
+/* .OweInput{
+    border: 1px yellow solid
+} */
+
+/* .AddChargeForm{
+    border: 1px violet solid;
+} */
