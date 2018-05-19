@@ -18,7 +18,7 @@ const OweUser = (props) => {
             </div>
 
             <AddChargeForm 
-                submitNewCharge = {props.submitNewChargeHandler}
+                submitNewCharge = {(e) => props.submitNewChargeHandler(e)}
                 addCharge={props.addChargeBool}
 
                 chargeName={(e) => {props.userChargeName(e.target.value)}}

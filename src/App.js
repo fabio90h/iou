@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import OweUserList from './OweUserList';
+import OweUserList from './components/OweUserList';
 
 class App extends Component {
   // STATE 
@@ -299,7 +299,8 @@ class App extends Component {
       }
     );
   //HANDLER: Submit a new Owe Charge
-  submitNewChargeHandler = (id) => {
+  submitNewChargeHandler = (e, id) => {
+    e.preventDefault();
     var time = this.getCurrentDateHandler();
     this.setState(
       {

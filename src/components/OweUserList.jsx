@@ -9,7 +9,7 @@ const OweUserList = (props) => {
                 .map((user) => {
                     return(
                         <OweUser
-                            submitNewChargeHandler={() => {props.submitNewChargeHandler(user.id)}}
+                            submitNewChargeHandler={(e) => {props.submitNewChargeHandler(e, user.id)}}
                             showUserOweList={() => {props.toggleShowUserOweList(user.id)}}
 
                             name={user.name}
