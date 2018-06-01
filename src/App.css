@@ -7,7 +7,6 @@
     padding-bottom: 40px;
     text-transform: uppercase;
 }
-
 /* MAIN BODY */
 main{
     /* border: 1px white solid; */
@@ -53,7 +52,6 @@ button{
         font-size: 1.5em;
         /* border: none; */
     }
-/* ========================================================== */
 
 /* USER LIST ================================================= */
 .OweUserList{
@@ -122,9 +120,20 @@ thead{
 }
 /* TABLE PAID------------------------------------------------- */
 .tPaid{
-    background-color: rgb(48, 63, 63);
+    background-color: rgb(49, 95, 39);
     border: none;
     text-align: center;
+    color: white;
+    font-size: 1.1em;
+    height: 35px;
+}
+.removePaid{
+    width: 100%;
+    align-self: stretch;
+    font-size: .8em;
+    background-color: red;
+    color: white;
+    height: 35px;
 }
 /* TABLE OWE-------------------------------------------------- */
 .tOwe{
@@ -215,7 +224,6 @@ thead{
     background-color: darkgreen;
     color: lightgreen;
 }
-/* =========================================================== */
 
 /* FORM =======================================================*/
 .AddChargeForm{
@@ -267,8 +275,6 @@ thead{
     border: none;
     font-size: 1.2em;
 }   
-/* =========================================================== */
-
 
 /* .OweOrPaid{
     border: 1px blueviolet solid;

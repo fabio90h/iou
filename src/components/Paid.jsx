@@ -7,7 +7,7 @@ const Paid = (props) => {
             <td>{props.paidName}</td>
             <td>{props.paidAmount}</td>
             <td>{props.paidDate}</td>
-            <td><button onClick={props.removePaid}>remove</button></td>
+            <td><button className='removePaid' onClick={props.removePaid}>REMOVE</button></td>
         </tr>
     );
 };
