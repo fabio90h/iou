@@ -2,10 +2,11 @@
     display: grid;
     /* border: 1px red solid; */
     width: 60%;
-    margin: auto;
+    margin: 40px auto;
     padding-top: 40px;
     padding-bottom: 40px;
     text-transform: uppercase;
+    
 }
 /* MAIN BODY */
 main{
@@ -13,11 +14,12 @@ main{
     background-color: black;
     padding-bottom: 20px;
     border-radius: 0 0 16px 16px;
+    box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
 }
 /* WHOLE WEB BROWSER */
-html{
+/* html{
     background-color: lightgray;
-}
+} */
 button{
     outline: inherit;
     border: none;
